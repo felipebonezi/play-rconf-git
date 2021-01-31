@@ -6,7 +6,7 @@
 
     <groupId>io.play-rconf</groupId>
     <artifactId>play-rconf-git</artifactId>
-    <version>20.10</version>
+    <version>21.01</version>
     <name>Play Remote Configuration - GIT</name>
     <description>Retrieves configuration hosted on a GIT repository</description>
     <url>https://github.com/play-rconf/play-rconf-git</url>
@@ -140,6 +140,16 @@
             <artifactId>mockito-core</artifactId>
             <version>2.16.0</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jgit</groupId>
+            <artifactId>org.eclipse.jgit</artifactId>
+            <version>5.9.0.202009080501-r</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jgit</groupId>
+            <artifactId>org.eclipse.jgit.ssh.jsch</artifactId>
+            <version>5.9.0.202009080501-r</version>
         </dependency>
     </dependencies>
 </project>
